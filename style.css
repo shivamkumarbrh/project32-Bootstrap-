@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box !important;
+}
+body{
+    background-color: rgba(248, 245, 245, 0.4) !important;
+}
+.container-fluid{
+    background-color: #f1f1f1 !important;
+}
+nav .nav-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    transition: all 0.5s;
+}
+.nav-link:hover{
+    color: white !important;
+    background-color: #aaa;
+}
+
+#imgRightLast{
+    height: 60%;
+    width: 100%; 
+    object-fit: cover;
+}
+#aboutImg{
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    margin: 10px auto;
+    display:block;
+}
+#aboutFirstParagraph{
+    padding: 20px 100px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+#aboutSecondParagraph{
+    font-size: 20px;
+}
+.formInfo{
+    width: 70%;
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.form-control{
+    border-radius: 3px !important;
+    border: 1.5px solid gray !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border: 1.5px solid black !important;
+}
+.btn{
+    background-color: #aaa !important;
+    color: white !important;
+    width: 100%;
+}
+.btn:active{
+    box-shadow: none !important;
+}
+.btn:hover{
+    background-color: #ddd !important;
+    color: black !important;
+}
+footer{
+    background-color: #f1f1f1 !important;
+}
